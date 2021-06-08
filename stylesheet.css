@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0px;
+    color: rgb(31, 31, 31);
+    /* background-color: lightblue; */
+}
+header {
+    padding: 3px;
+    padding-left: 20px;
+    background-color: #5FB3D3;
+}
+main {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 1.25rem auto;
+    max-width: 975px;
+}
+
+/* book icons  */
+.library-div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 20px;
+}
+
+/* .book {
+    padding: 15px;
+    text-align: center;
+} */
+#book-a, #book-b, #book-c {
+    text-align: center;
+}
+
+#book-a {
+    grid-column: 1/2;
+}
+#book-b {
+    grid-column: 2/3;
+}
+#book-c {
+    grid-column: 3/4;
+}
+
+/* etextbook page */
+.book-content {
+    display: flex;
+}
+
+.column {
+    padding-right: 20px;
+}
+
+/* eng book */
+label {
+    display: flex;
+    flex-direction: row;
+}
+
+#question1 {
+    padding-bottom: 6px;
+}
+
+#question2 {
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+#submit-btn {
+    padding: 2px 8px 2px 8px;
+    margin-top: 8px;
+}
+
+/* code editor */
+.code-editor {
+    color: lightgray;
+    background-color: rgb(39, 39, 39);
+}
+h5 {
+    font-size: 16px;
+    padding: 5px;
+    margin: 0px;
+}
+#code-input {
+    width: 99%;
+    height: 100px;
+    background-color: rgb(39, 39, 39);
+    color: lightgray;
+}
+
+#code-output {
+    border: 2px solid rgb(39, 39, 39);
+}
